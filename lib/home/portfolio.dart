@@ -40,16 +40,20 @@ class _PortfolioState extends State<Portfolio> {
       ) : null,
       body: Scaffold(
         body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Wrap(
-                alignment: WrapAlignment.center,
-                children: [
-                  AboutComponent(),
-                  EducationComponent()
-                ],
-              )
-            ],
+          child: Center(
+            child: Column(
+              children: [
+                Wrap(
+                  alignment: WrapAlignment.center,
+                  spacing: 20.0,
+                  runAlignment: WrapAlignment.center,
+                  children: [
+                    AboutComponent(),
+                    EducationComponent()
+                  ],
+                )
+              ],
+            ),
           ),
         ),
       )

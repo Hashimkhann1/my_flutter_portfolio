@@ -20,7 +20,10 @@ class _EducationComponentState extends State<EducationComponent> {
       width: context.screenWidth < 900
           ? context.screenWidth * 0.9
           : context.screenWidth * 0.5,
-      decoration: BoxDecoration(color: Colors.white),
+      decoration: BoxDecoration(
+          color: Colors.white,
+        borderRadius: BorderRadius.circular(20.0)
+      ),
       padding: EdgeInsets.all(30.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
