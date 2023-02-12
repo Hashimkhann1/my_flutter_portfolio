@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/components/about.dart';
+import 'package:portfolio/components/footer.dart';
 import 'package:portfolio/widget/text_widget.dart';
 
 import '../components/education.dart';
@@ -51,7 +52,8 @@ class _PortfolioState extends State<Portfolio> {
                     AboutComponent(),
                     EducationComponent()
                   ],
-                )
+                ),
+                // Footer()
               ],
             ),
           ),

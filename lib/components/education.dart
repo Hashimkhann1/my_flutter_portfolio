@@ -33,6 +33,7 @@ class _EducationComponentState extends State<EducationComponent> {
             textSize: 24.0,
             textFontWeight: FontWeight.w600,
           ),
+          const SizedBox(height: 12.0,),
           Timeline.tileBuilder(
             shrinkWrap: true,
               scrollDirection: Axis.vertical,

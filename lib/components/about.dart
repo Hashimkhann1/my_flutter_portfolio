@@ -43,6 +43,7 @@ class _AboutComponentState extends State<AboutComponent> {
           AnimatedButtonWidget(title: 'LinkedIn',subTitle: 'Muhammad Hashim',icon: FontAwesomeIcons.linkedin,onTap: (){},),
           AnimatedButtonWidget(title: 'Twitter',subTitle: 'Hashimk87136813',icon: FontAwesomeIcons.twitter,onTap: (){},),
           // SocialIcon()
+
         ],
       ),
     );
